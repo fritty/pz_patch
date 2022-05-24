@@ -1,4 +1,14 @@
 .gradle
+.idea
+gradle
+images
+lib
+logs
+*.gradle
+*.properties
+*.bat
+gradlew
+
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
