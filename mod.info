@@ -1,0 +1,7 @@
+name=pz_fritt_patch
+poster=poster.png
+description=small patch for my private server
+id=fritt_patch
+url=https://github.com/fritty/pz_patch_mod
+modversion=0.1.0
+pzversion=41.71
