@@ -5,8 +5,8 @@
 ---
 
 local function myf()
-    local player = getSpecificPlayer(0)
-    player:Say("Hello World")
+    local player = getSpecificPlayer(0);
+    player:Say("Hello World");
     print("I like trains!");
 end
 
