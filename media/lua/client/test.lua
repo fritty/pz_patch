@@ -4,10 +4,23 @@
 --- DateTime: 24.05.2022 18:42
 ---
 
-local function myf()
-    local player = getSpecificPlayer(0);
+local function OnObjectAdded(addedObject)
+    local object = addedObject;
+    local sprite = object:getSprite();
+    if sprite then
+        local properties = sprite:getProperties();
+        if properties ~= nil and properties:Is("fuelAmount") then
+            print(object.spriteName);
+        end
+    end
+end
+
+Events.OnObjectAdded.Add(OnObjectAdded);
+
+local function Spammer()
+    local player = getSpecificPlayer();
     player:Say("Hello World");
     print("I like trains!");
 end
 
-Events.EveryOneMinute.Add(myf);
+Events.EveryTenMinutes.Add(Spammer);
