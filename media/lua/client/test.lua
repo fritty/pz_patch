@@ -7,10 +7,12 @@
 local function OnObjectAdded(addedObject)
     local object = addedObject;
     local sprite = object:getSprite();
+    print("spam");
     if sprite then
         local properties = sprite:getProperties();
         if properties ~= nil and properties:Is("fuelAmount") then
             print(object.spriteName);
+            print("hello world");
         end
     end
 end
