@@ -1,5 +1,6 @@
 name=pz_fritt_patch
 poster=poster.png
+require=HowMuchFuel
 description=small patch for my private server
 id=fritt_patch
 url=https://github.com/fritty/pz_patch_mod
