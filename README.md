@@ -1,6 +1,6 @@
-# ZomboidMod
+# fritt_patch Zomboid Mod
 
-Testing Capsid mod initialization (https://github.com/pzstorm/capsid).
+Balancing patch for my private server
 
 ## License
 
